@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "install": "mintlify install",
-    "dev": "mintlify dev"
+    "dev": "node init && mintlify dev"
   },
   "dependencies": {
     "mintlify": "3.0.25"

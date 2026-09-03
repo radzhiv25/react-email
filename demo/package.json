@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "email dev",
+    "dev": "node init && email dev",
     "export": "email export"
   },
   "dependencies": {

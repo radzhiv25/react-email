@@ -6,8 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
+    "build": "node init && turbo run build",
+    "dev": "node init && turbo run dev --parallel",
     "test": "turbo run test",
     "lint": "turbo run lint",
     "format": "turbo run format"

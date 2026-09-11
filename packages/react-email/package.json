@@ -7,7 +7,7 @@
   },
   "types": "./dist/source/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "format:check": "prettier --check \"**/*.{js,ts,tsx,json}\"",
     "format": "prettier --write \"**/*.{js,ts,tsx,json}\"",
     "lint": "eslint",
